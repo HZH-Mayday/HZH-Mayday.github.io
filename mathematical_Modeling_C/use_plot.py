@@ -64,6 +64,7 @@ del data_com["stop"]
 #Error analysis in the absence of self-driving
 coef = [1,1.89,2.67,3.32,3.84]
 mean_n_0 = 0.455
+#adjust error to fit the model
 data_com["road_mean_n"] = [0.455*coef[i-1]/coef[1] for i in data_com["road_n"]]
 data_com["iter"] = data_com["car_mean_n"]/data_com["road_mean_n"]
 data_com["comfirm"] = data_com["iter"]*mean_n_0
