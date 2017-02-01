@@ -104,7 +104,7 @@ fig4.savefig(("comfirm_scatter.png"),dpi = 200)
 nn = all_pere_df["flow_number_mean"]
 columns_pre = []
 for i in nn:
-    pre = []
+    pre = [] 
     for j in data_com["iter"]:
         pre.append(j*i)
     columns_pre.append(pre)
