@@ -2,6 +2,7 @@
 @author: huzhehui
 @function: outlier test
 @baidu_wenku: https://wenku.baidu.com/view/ee875edbd15abe23482f4d0f.html
+@statsmodel: https://ask.hellobi.com/blog/lsxxx2011/10426
 """
 
 # -*- coding:utf-8 -*-
