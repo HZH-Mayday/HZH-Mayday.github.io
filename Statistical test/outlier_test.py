@@ -1,3 +1,9 @@
+"""
+@author: huzhehui
+@function: outlier test
+@baidu_wenku: https://wenku.baidu.com/view/ee875edbd15abe23482f4d0f.html
+"""
+
 # -*- coding:utf-8 -*-
 import pandas as pd
 import numpy as np
